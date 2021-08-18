@@ -27,12 +27,36 @@ padding: 0.2rem 1rem;
     color: black;
 }
 /* LIST STYLING */
-.non-bullet
+.list-non-bullet
 {
     list-style: none;
 }
 .list-inline
 {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: .5rem 0.5rem;
+}
+.navigation{
+    background-color: var(--main-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem; 
+    border-top-right-radius: 2rem;
+}
+.brand-name
+{
+    font-weight:bolder;
+    font-size: 1.2rem;
+}
+.quick-links{
+    text-align: right;
+
+}
+.navigation a{
+ color: white;
+}
+.navigation .link-active
+{
+    font-weight: bolder;
+    text-decoration: underline;
 }
