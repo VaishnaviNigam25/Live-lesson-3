@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+:root{
+    --main-color:#F59E0B;
+}
 body{
    
-    background-color: rgb(240, 199, 110);
+   
     font-family: 'Merienda', cursive;
+}
+hr{
+    margin: 2rem 0rem;
+}
+/* LINK STYLING */
+.link{
+padding: 0.2rem 1rem;
+}
+.link-primary
+{
+    background-color: var(--main-color);
+    color: black;
+    border-radius: 0.5rem;
+}
+.link-secondary
+{
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+    color: black;
 }
